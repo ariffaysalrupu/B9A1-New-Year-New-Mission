@@ -296,3 +296,55 @@ p{
     flex-shrink: 0;
 
 }
+
+#holidays-sale .container .holidays-sale-text{
+    text-align: center;
+    margin-top: 120px;
+    
+    
+}
+
+
+
+.holidays-sale-text h3{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.holidays-sale-text h1{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 28px;
+}
+
+.holidays-sale-text p{
+    width: 850px;
+    max-width: 100%;
+    margin: 0 auto;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 160% */
+}
+
+.holidays-sale-image{
+    margin-top: 64px;
+    display:inline-block;
+}
+
+.female-50{
+    position: relative;
+    
+    
+}
