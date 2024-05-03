@@ -425,8 +425,14 @@ p{
 
 #subscribe .container .mail-image{
    text-align: center;
-   padding-top: 120px;
+   padding-top: 80px;
    padding-bottom: 40px;
+}
+
+#subscribe .container .mail-image img{
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
 }
 
 #subscribe .container .subscribe-text{
@@ -460,10 +466,15 @@ p{
     padding-bottom: 40px;
 }
 
+#subscribe .container .subscribe-section{
+    align-items: center;
+}
+
 #subscribe form{
     max-width: 638px;
     margin: 20px auto;
     display: flex;
+    padding-bottom: 80px;
 }
 
 #subscribe form input{
@@ -483,3 +494,40 @@ p{
 #subscribe form button{
     border-radius: 0 30px 30px 0;
 }
+
+#footer{
+    background-color: #070211;
+    margin-top: 120px;
+    width: 100%;
+    height: 609px;
+    flex-shrink: 0;
+
+}
+
+.footer-text{
+    display: flex;
+    padding-top: 120px;
+    justify-content: space-between;
+}
+
+#footer .container .footer-text p{
+    color: #ffffff;
+    width: 310px;
+    margin-bottom: 10px;
+    
+}
+
+#footer .container .footer-text img{
+    width: 24px;
+    height: 24px;
+   
+align-self: center;
+}
+
+.footer-text-right-number{
+    display: flex;
+}
+.footer-text-right-number p{
+    margin-left: 16px;
+}
+
