@@ -531,3 +531,32 @@ align-self: center;
     margin-left: 16px;
 }
 
+hr{
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    margin-top: 50px;
+}
+
+.social-media{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-top: 48px;
+    gap: 24px;
+    justify-content: center;
+}
+
+.footer-lower-text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-lower-text-left p{
+    color: #FFF;
+    margin-top: 50px;
+}
+
+.footer-lower-text-right p{
+    color: #FFF;
+    margin-top: 50px;
+}
